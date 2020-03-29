@@ -1,0 +1,41 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Roulette App</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+      <script src="https://kit.fontawesome.com/077191d827.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+
+    <div class="page-header text-center">
+        <h1></span>Bank</h1>
+        <h2>Client Information</h2>
+        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    </div>
+
+
+    <section>
+        <table class="totals">
+            <tr>
+              <td>wins:</td>
+              <td>losses:</td>
+              <td>total earnings:</td>
+            </tr>
+            <% for(var i=0; i < totals.length; i++) {%>
+              <tr>
+                <td><span><%= totals[i].wins %></span></td>
+                <td><span><%= totals[i].losses %></span></td>
+                <td><span><%= totals[i].total %></span></td>
+              </tr>
+              <% } %>
+          </table>
+      </section>
+
+      <script src="main.js"></script>
+
+</body>
+</html>

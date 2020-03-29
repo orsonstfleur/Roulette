@@ -1,0 +1,67 @@
+html{
+  font-size: 10px;
+  color:#a00c0c;
+}
+
+
+body{
+  text-align: center;
+  background-image: url("https://media.giphy.com/media/l0ExhcMymdL6TrZ84/giphy.gif");
+  background-repeat:no-repeat;
+  background-size: cover;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+section p{
+color:#a00c0c;
+}
+
+a{
+  border: 1px solid gold;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.title{
+  width: 350px;
+  height: 400px;
+}
+
+section p {
+  font-size: 2.4rem;
+}
+
+.boardNum, button, input{
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.math{
+  display: flex;
+  /* border: 2px solid black; */
+}
+
+.math aside{
+  /* border: 2px solid red; */
+  padding-left: 20px;
+  padding-right: 20px;
+  flex:1;
+}
+
+.winningNumber{
+  text-align: right;
+}
+
+table{
+  width: 100%;
+}
+
+td{
+  width: 30%;
+  border: 3px dashed black;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 4px;
+}
